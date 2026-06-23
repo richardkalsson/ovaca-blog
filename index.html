@@ -3,25 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Ateliê de Amigurumi e Crochê: dicas úteis, ideias de criações, pontos essenciais e inspiração para artesãs e apaixonados por fios.">
-  <title>Ateliê Fio & Afeto — amigurumi e crochê</title>
+  <meta name="description" content="Garagem Brasil Clássicos: guia de carros antigos brasileiros, colecionismo, dicas de compra, manutenção e modelos nacionais memoráveis.">
+  <title>Garagem Brasil Clássicos — carros antigos brasileiros</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Bebas+Neue&display=swap" rel="stylesheet">
   <style>
     :root {
-      --cream: #fff8ee;
-      --paper: #fffdf8;
-      --rose: #f7b7c8;
-      --rose-dark: #b84c72;
-      --lavender: #cbb8ff;
-      --mint: #bce6cf;
-      --peach: #ffd3b5;
-      --honey: #f5b94c;
-      --ink: #382236;
-      --muted: #7f6376;
-      --shadow: rgba(78, 43, 68, 0.16) 0 22px 65px;
-      --ring: rgba(56, 34, 54, 0.13) 0 0 0 1px;
+      --cream: #f6ead6;
+      --paper: #fff8ea;
+      --asphalt: #191715;
+      --brown: #4a2b18;
+      --muted: #7a5d49;
+      --red: #b6281f;
+      --red-dark: #7d1712;
+      --mustard: #d89a28;
+      --green: #2f6b4f;
+      --blue: #244d73;
+      --chrome: #d8d0bf;
+      --shadow: rgba(25, 23, 21, 0.24) 0 24px 70px;
+      --ring: rgba(25, 23, 21, 0.16) 0 0 0 1px;
     }
 
     * { box-sizing: border-box; }
@@ -32,12 +33,12 @@
       margin: 0;
       min-height: 100vh;
       font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      color: var(--ink);
+      color: var(--asphalt);
       background:
-        radial-gradient(circle at 12% 12%, rgba(247, 183, 200, 0.54), transparent 24%),
-        radial-gradient(circle at 82% 8%, rgba(188, 230, 207, 0.55), transparent 22%),
-        radial-gradient(circle at 78% 82%, rgba(203, 184, 255, 0.44), transparent 25%),
-        linear-gradient(135deg, #fff8ee 0%, #ffeef4 42%, #f5fff8 100%);
+        radial-gradient(circle at 12% 10%, rgba(216, 154, 40, 0.36), transparent 24%),
+        radial-gradient(circle at 90% 12%, rgba(182, 40, 31, 0.30), transparent 22%),
+        radial-gradient(circle at 72% 82%, rgba(47, 107, 79, 0.28), transparent 26%),
+        linear-gradient(135deg, #f6ead6 0%, #f2d7b3 46%, #efe2c8 100%);
       overflow-x: hidden;
     }
 
@@ -46,16 +47,19 @@
       position: fixed;
       inset: 0;
       pointer-events: none;
-      opacity: 0.34;
+      opacity: 0.22;
       background-image:
-        linear-gradient(90deg, rgba(56, 34, 54, 0.06) 1px, transparent 1px),
-        linear-gradient(rgba(56, 34, 54, 0.06) 1px, transparent 1px);
-      background-size: 34px 34px;
-      mask-image: linear-gradient(to bottom, black, transparent 82%);
+        linear-gradient(45deg, rgba(25, 23, 21, 0.16) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(25, 23, 21, 0.16) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(25, 23, 21, 0.16) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(25, 23, 21, 0.16) 75%);
+      background-size: 30px 30px;
+      background-position: 0 0, 0 15px, 15px -15px, -15px 0;
+      mask-image: linear-gradient(to bottom, black, transparent 86%);
     }
 
     .shell {
-      width: min(1160px, calc(100% - 36px));
+      width: min(1180px, calc(100% - 36px));
       margin: 0 auto;
     }
 
@@ -66,10 +70,10 @@
       align-items: center;
       justify-content: space-between;
       gap: 18px;
-      border-radius: 28px;
-      background: rgba(255, 253, 248, 0.78);
-      box-shadow: var(--ring), rgba(255, 255, 255, 0.72) 0 1px 0 inset;
-      backdrop-filter: blur(14px);
+      border-radius: 26px;
+      background: rgba(255, 248, 234, 0.82);
+      box-shadow: var(--ring), rgba(255, 255, 255, 0.62) 0 1px 0 inset;
+      backdrop-filter: blur(12px);
     }
 
     .brand {
@@ -80,20 +84,20 @@
     }
 
     .mark {
-      width: 58px;
-      height: 58px;
+      width: 60px;
+      height: 60px;
       flex: 0 0 auto;
-      border-radius: 20px;
+      border-radius: 18px;
       display: grid;
       place-items: center;
-      background: linear-gradient(145deg, var(--rose), var(--lavender));
-      box-shadow: rgba(184, 76, 114, 0.22) 0 12px 28px;
+      background: linear-gradient(145deg, var(--red), var(--mustard));
+      box-shadow: rgba(126, 23, 18, 0.28) 0 12px 28px;
     }
 
     .brand strong {
       display: block;
-      font-size: 18px;
-      letter-spacing: -0.04em;
+      font-size: 19px;
+      letter-spacing: -0.045em;
       line-height: 1;
     }
 
@@ -110,7 +114,7 @@
     .nav-badge {
       padding: 12px 16px;
       border-radius: 999px;
-      background: var(--ink);
+      background: var(--asphalt);
       color: var(--cream);
       font-size: 13px;
       font-weight: 900;
@@ -121,8 +125,8 @@
     .hero {
       padding: clamp(58px, 9vw, 112px) 0 44px;
       display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(310px, 455px);
-      gap: clamp(34px, 6vw, 76px);
+      grid-template-columns: minmax(0, 1fr) minmax(320px, 480px);
+      gap: clamp(34px, 6vw, 78px);
       align-items: center;
     }
 
@@ -133,9 +137,9 @@
       margin: 0 0 20px;
       padding: 10px 14px;
       border-radius: 999px;
-      background: rgba(255, 253, 248, 0.82);
+      background: rgba(255, 248, 234, 0.82);
       box-shadow: var(--ring);
-      color: var(--rose-dark);
+      color: var(--red-dark);
       font-size: 13px;
       font-weight: 900;
       text-transform: uppercase;
@@ -147,32 +151,33 @@
       width: 14px;
       height: 14px;
       border-radius: 50%;
-      background: var(--rose);
-      box-shadow: 18px 0 0 var(--mint), 36px 0 0 var(--lavender);
+      background: var(--red);
+      box-shadow: 18px 0 0 var(--mustard), 36px 0 0 var(--green);
     }
 
     h1 {
       margin: 0;
-      max-width: 800px;
-      font-family: "Playfair Display", Georgia, serif;
-      font-size: clamp(54px, 8.4vw, 116px);
-      line-height: 0.92;
-      letter-spacing: -0.055em;
-      font-weight: 900;
+      max-width: 790px;
+      font-family: "Bebas Neue", Impact, sans-serif;
+      font-size: clamp(72px, 12vw, 154px);
+      line-height: 0.82;
+      letter-spacing: -0.018em;
+      font-weight: 400;
+      text-transform: uppercase;
     }
 
     .intro {
       max-width: 700px;
       margin: 28px 0 0;
-      color: var(--muted);
+      color: var(--brown);
       font-size: clamp(19px, 2.2vw, 25px);
       line-height: 1.46;
       letter-spacing: -0.035em;
-      font-weight: 650;
+      font-weight: 700;
     }
 
     .intro strong {
-      color: var(--rose-dark);
+      color: var(--red-dark);
       font-weight: 900;
     }
 
@@ -189,7 +194,7 @@
       align-items: center;
       justify-content: center;
       padding: 0 22px;
-      border-radius: 18px;
+      border-radius: 16px;
       text-decoration: none;
       font-size: 15px;
       font-weight: 900;
@@ -198,52 +203,52 @@
     }
 
     .button.dark {
-      background: var(--ink);
+      background: var(--asphalt);
       color: var(--cream);
     }
 
     .button.light {
-      background: rgba(255, 253, 248, 0.78);
-      color: var(--ink);
+      background: rgba(255, 248, 234, 0.80);
+      color: var(--asphalt);
     }
 
-    .basket {
+    .poster {
       position: relative;
       min-height: 520px;
       padding: 28px;
       display: grid;
       place-items: center;
-      border-radius: 42px;
+      border-radius: 38px;
       background:
-        radial-gradient(circle at 24% 22%, rgba(255, 255, 255, 0.88), transparent 19%),
-        radial-gradient(circle at 78% 76%, rgba(188, 230, 207, 0.86), transparent 25%),
-        linear-gradient(160deg, #ffe2ec, #f7b7c8 48%, #cbb8ff);
+        radial-gradient(circle at 24% 22%, rgba(255, 255, 255, 0.80), transparent 19%),
+        radial-gradient(circle at 78% 76%, rgba(216, 154, 40, 0.60), transparent 25%),
+        linear-gradient(160deg, #f2d7b3, #c65f2e 48%, #7d1712);
       box-shadow: var(--ring), var(--shadow);
       overflow: hidden;
     }
 
-    .basket::before {
-      content: "PONTO BAIXO • ANEL MÁGICO • FIOS • RECEITAS •";
+    .poster::before {
+      content: "FUSCA • OPALA • BRASÍLIA • DODGE DART • KARMANN-GHIA •";
       position: absolute;
-      left: -26px;
-      top: 24px;
-      right: -26px;
+      left: -34px;
+      top: 28px;
+      right: -34px;
       transform: rotate(-8deg);
-      color: rgba(56, 34, 54, 0.13);
+      color: rgba(25, 23, 21, 0.16);
       font-weight: 900;
-      font-size: 27px;
+      font-size: 26px;
       letter-spacing: 0.08em;
       white-space: nowrap;
     }
 
-    .crochet-art {
+    .classic-car {
       position: relative;
       z-index: 1;
-      width: min(100%, 390px);
-      filter: drop-shadow(0 28px 28px rgba(78, 43, 68, 0.18));
+      width: min(100%, 410px);
+      filter: drop-shadow(0 28px 28px rgba(25, 23, 21, 0.28));
     }
 
-    .basket-label {
+    .poster-label {
       position: absolute;
       left: 24px;
       right: 24px;
@@ -252,8 +257,8 @@
       justify-content: space-between;
       gap: 14px;
       padding: 14px 16px;
-      border-radius: 20px;
-      background: rgba(56, 34, 54, 0.92);
+      border-radius: 18px;
+      background: rgba(25, 23, 21, 0.92);
       color: var(--cream);
       font-size: 12px;
       font-weight: 900;
@@ -271,17 +276,19 @@
 
     .section-title h2 {
       margin: 0;
-      font-family: "Playfair Display", Georgia, serif;
-      font-size: clamp(34px, 5vw, 64px);
-      line-height: 1;
-      letter-spacing: -0.045em;
+      font-family: "Bebas Neue", Impact, sans-serif;
+      font-size: clamp(50px, 7vw, 86px);
+      line-height: 0.9;
+      letter-spacing: -0.01em;
+      font-weight: 400;
+      text-transform: uppercase;
     }
 
     .section-title p {
-      max-width: 420px;
+      max-width: 450px;
       margin: 0;
-      color: var(--muted);
-      font-weight: 700;
+      color: var(--brown);
+      font-weight: 800;
       line-height: 1.45;
     }
 
@@ -293,25 +300,25 @@
     }
 
     .card {
-      min-height: 235px;
+      min-height: 250px;
       padding: 22px;
-      border-radius: 30px;
-      background: rgba(255, 253, 248, 0.76);
-      box-shadow: var(--ring), rgba(255, 255, 255, 0.64) 0 1px 0 inset;
+      border-radius: 28px;
+      background: rgba(255, 248, 234, 0.78);
+      box-shadow: var(--ring), rgba(255, 255, 255, 0.54) 0 1px 0 inset;
     }
 
-    .card:nth-child(2) { background: rgba(255, 211, 181, 0.66); }
-    .card:nth-child(3) { background: rgba(188, 230, 207, 0.66); }
-    .card:nth-child(4) { background: rgba(203, 184, 255, 0.58); }
+    .card:nth-child(2) { background: rgba(216, 154, 40, 0.34); }
+    .card:nth-child(3) { background: rgba(47, 107, 79, 0.23); }
+    .card:nth-child(4) { background: rgba(36, 77, 115, 0.20); }
 
     .num {
-      width: 42px;
-      height: 42px;
+      width: 44px;
+      height: 44px;
       display: grid;
       place-items: center;
       margin-bottom: 26px;
-      border-radius: 16px;
-      background: var(--ink);
+      border-radius: 15px;
+      background: var(--asphalt);
       color: var(--cream);
       font-size: 13px;
       font-weight: 900;
@@ -326,15 +333,15 @@
 
     .card p {
       margin: 13px 0 0;
-      color: var(--muted);
+      color: var(--brown);
       font-size: 15.5px;
       line-height: 1.45;
-      font-weight: 650;
+      font-weight: 700;
     }
 
-    .ideas {
+    .garage-grid {
       display: grid;
-      grid-template-columns: 1.15fr 0.85fr;
+      grid-template-columns: 1.08fr 0.92fr;
       gap: 16px;
       padding: 0 0 54px;
     }
@@ -342,20 +349,27 @@
     .panel {
       border-radius: 34px;
       padding: clamp(24px, 4vw, 38px);
-      background: rgba(255, 253, 248, 0.78);
-      box-shadow: var(--ring), rgba(255, 255, 255, 0.64) 0 1px 0 inset;
+      background: rgba(255, 248, 234, 0.80);
+      box-shadow: var(--ring), rgba(255, 255, 255, 0.54) 0 1px 0 inset;
     }
 
     .panel.accent {
-      background: linear-gradient(145deg, rgba(247, 183, 200, 0.78), rgba(255, 211, 181, 0.72));
+      background: linear-gradient(145deg, rgba(182, 40, 31, 0.24), rgba(216, 154, 40, 0.34));
+    }
+
+    .panel.dark {
+      background: linear-gradient(145deg, #26211d, #4a2b18);
+      color: var(--cream);
     }
 
     .panel h3 {
       margin: 0 0 18px;
-      font-family: "Playfair Display", Georgia, serif;
-      font-size: 34px;
-      line-height: 1;
-      letter-spacing: -0.04em;
+      font-family: "Bebas Neue", Impact, sans-serif;
+      font-size: 48px;
+      line-height: 0.95;
+      letter-spacing: -0.01em;
+      font-weight: 400;
+      text-transform: uppercase;
     }
 
     ul {
@@ -369,38 +383,53 @@
     li {
       position: relative;
       padding-left: 28px;
-      color: var(--muted);
-      font-weight: 700;
+      color: var(--brown);
+      font-weight: 750;
       line-height: 1.45;
     }
 
+    .dark li { color: rgba(246, 234, 214, 0.84); }
+
     li::before {
-      content: "✦";
+      content: "◆";
       position: absolute;
       left: 0;
       top: 0;
-      color: var(--rose-dark);
+      color: var(--red);
+      font-size: 12px;
+      transform: translateY(4px);
     }
 
-    .recipe {
+    .model-list {
       display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 12px;
+      margin-top: 4px;
     }
 
-    .step {
+    .model {
       padding: 14px;
       border-radius: 18px;
-      background: rgba(255, 253, 248, 0.55);
-      color: var(--ink);
+      background: rgba(255, 248, 234, 0.66);
+      color: var(--asphalt);
+      font-weight: 900;
+    }
+
+    .model small {
+      display: block;
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 12px;
       font-weight: 800;
+      line-height: 1.35;
     }
 
     .strip {
       width: 100%;
       overflow: hidden;
-      border-top: 2px solid rgba(56, 34, 54, 0.12);
-      border-bottom: 2px solid rgba(56, 34, 54, 0.12);
-      background: rgba(255, 253, 248, 0.58);
+      border-top: 2px solid rgba(25, 23, 21, 0.14);
+      border-bottom: 2px solid rgba(25, 23, 21, 0.14);
+      background: rgba(255, 248, 234, 0.62);
     }
 
     .strip-track {
@@ -409,7 +438,7 @@
       gap: 30px;
       padding: 18px 0;
       animation: roll 24s linear infinite;
-      color: var(--ink);
+      color: var(--asphalt);
       font-size: 13px;
       font-weight: 900;
       text-transform: uppercase;
@@ -418,9 +447,9 @@
     }
 
     .strip-track span::before {
-      content: "♡";
+      content: "★";
       margin-right: 30px;
-      color: var(--rose-dark);
+      color: var(--red);
     }
 
     @keyframes roll { to { transform: translateX(-50%); } }
@@ -430,26 +459,26 @@
       display: flex;
       justify-content: space-between;
       gap: 20px;
-      color: var(--muted);
+      color: var(--brown);
       font-size: 14px;
-      font-weight: 750;
+      font-weight: 800;
     }
 
     @media (max-width: 960px) {
-      .hero, .ideas { grid-template-columns: 1fr; }
-      .basket { min-height: 440px; }
+      .hero, .garage-grid { grid-template-columns: 1fr; }
+      .poster { min-height: 440px; }
       .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .section-title { align-items: flex-start; flex-direction: column; }
     }
 
     @media (max-width: 620px) {
-      .shell { width: min(100% - 26px, 1160px); }
+      .shell { width: min(100% - 26px, 1180px); }
       .nav { align-items: flex-start; border-radius: 24px; }
       .brand span { display: none; }
       .nav-badge { font-size: 12px; padding: 10px 12px; }
-      h1 { font-size: clamp(48px, 17vw, 76px); }
-      .basket-label, footer { flex-direction: column; align-items: flex-start; }
-      .cards { grid-template-columns: 1fr; }
+      h1 { font-size: clamp(62px, 20vw, 92px); }
+      .poster-label, footer { flex-direction: column; align-items: flex-start; }
+      .cards, .model-list { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -457,124 +486,153 @@
   <header class="shell nav" aria-label="Topo do site">
     <div class="brand">
       <div class="mark" aria-hidden="true">
-        <svg viewBox="0 0 96 96" width="44" height="44" role="img" aria-label="Novelo de lã com agulha de crochê">
-          <circle cx="42" cy="52" r="25" fill="#fff8ee"/>
-          <path d="M19 52 C27 34 57 33 66 52 C57 41 33 42 19 52 Z" fill="none" stroke="#382236" stroke-width="5" stroke-linecap="round"/>
-          <path d="M23 64 C35 50 58 50 69 64" fill="none" stroke="#382236" stroke-width="5" stroke-linecap="round"/>
-          <path d="M30 32 C42 44 54 56 66 74" fill="none" stroke="#b84c72" stroke-width="5" stroke-linecap="round"/>
-          <path d="M64 21 L78 75" stroke="#382236" stroke-width="6" stroke-linecap="round"/>
-          <path d="M61 21 C65 13 77 16 75 25" fill="none" stroke="#382236" stroke-width="6" stroke-linecap="round"/>
+        <svg viewBox="0 0 96 96" width="46" height="46" role="img" aria-label="Ícone de carro antigo brasileiro">
+          <path d="M18 58 C20 43 32 33 49 33 H61 C70 33 78 42 81 58 Z" fill="#fff8ea" stroke="#191715" stroke-width="5" stroke-linejoin="round"/>
+          <path d="M34 35 L27 49 H52 L49 35 Z" fill="#244d73" stroke="#191715" stroke-width="4" stroke-linejoin="round"/>
+          <path d="M52 35 L55 49 H75 C71 40 66 35 60 35 Z" fill="#244d73" stroke="#191715" stroke-width="4" stroke-linejoin="round"/>
+          <circle cx="32" cy="61" r="10" fill="#191715"/><circle cx="68" cy="61" r="10" fill="#191715"/>
+          <circle cx="32" cy="61" r="4" fill="#d8d0bf"/><circle cx="68" cy="61" r="4" fill="#d8d0bf"/>
+          <path d="M15 58 H84" stroke="#b6281f" stroke-width="5" stroke-linecap="round"/>
         </svg>
       </div>
       <div>
-        <strong>Ateliê Fio & Afeto</strong>
-        <span>Amigurumi, crochê e inspiração</span>
+        <strong>Garagem Brasil Clássicos</strong>
+        <span>Carros antigos brasileiros</span>
       </div>
     </div>
-    <div class="nav-badge">Receitas, pontos e ideias</div>
+    <div class="nav-badge">Colecionismo, modelos e estrada</div>
   </header>
 
   <main>
     <section class="shell hero" aria-labelledby="headline">
       <div>
-        <p class="tagline">um cantinho para criar com fios</p>
-        <h1 id="headline">Crochê bonito, útil e cheio de carinho.</h1>
+        <p class="tagline">memória sobre rodas nacionais</p>
+        <h1 id="headline">Clássicos brasileiros que ainda aceleram histórias.</h1>
         <p class="intro">
-          Um espaço para quem ama <strong>amigurumi, crochê criativo e peças feitas à mão</strong>: dicas práticas, ideias de presentes, combinações de cores e pequenos cuidados para cada ponto ficar mais bonito.
+          Um guia para apaixonados por <strong>carros antigos brasileiros</strong>: dicas de compra, preservação, colecionismo e modelos que marcaram nossas ruas, garagens, encontros e viagens de família.
         </p>
         <div class="actions">
-          <a class="button dark" href="#dicas">Ver dicas úteis</a>
-          <a class="button light" href="#ideias">Ideias de criações</a>
+          <a class="button dark" href="#dicas">Dicas de garimpo</a>
+          <a class="button light" href="#modelos">Ver modelos nacionais</a>
         </div>
       </div>
 
-      <aside class="basket" aria-label="Ilustração de amigurumi e crochê">
-        <svg class="crochet-art" viewBox="0 0 520 520" role="img" aria-label="Novelos, agulha de crochê e ursinho amigurumi">
-          <ellipse cx="260" cy="392" rx="172" ry="54" fill="rgba(56,34,54,0.16)"/>
-          <circle cx="169" cy="314" r="78" fill="#fff8ee" stroke="#382236" stroke-width="16"/>
-          <path d="M104 303 C126 267 194 267 226 304" fill="none" stroke="#b84c72" stroke-width="13" stroke-linecap="round"/>
-          <path d="M103 342 C136 309 198 309 236 344" fill="none" stroke="#b84c72" stroke-width="13" stroke-linecap="round"/>
-          <circle cx="335" cy="303" r="83" fill="#ffd3b5" stroke="#382236" stroke-width="16"/>
-          <circle cx="284" cy="230" r="34" fill="#ffd3b5" stroke="#382236" stroke-width="14"/>
-          <circle cx="388" cy="230" r="34" fill="#ffd3b5" stroke="#382236" stroke-width="14"/>
-          <circle cx="309" cy="296" r="8" fill="#382236"/>
-          <circle cx="363" cy="296" r="8" fill="#382236"/>
-          <path d="M325 325 C333 334 347 334 355 325" fill="none" stroke="#382236" stroke-width="9" stroke-linecap="round"/>
-          <path d="M182 186 C240 137 326 118 405 146" fill="none" stroke="#382236" stroke-width="15" stroke-linecap="round"/>
-          <path d="M404 146 C425 151 425 179 403 181" fill="none" stroke="#382236" stroke-width="15" stroke-linecap="round"/>
-          <path d="M202 185 L388 374" stroke="#fffdf8" stroke-width="20" stroke-linecap="round"/>
-          <path d="M202 185 L388 374" stroke="#382236" stroke-width="8" stroke-linecap="round" opacity="0.45"/>
-          <path d="M218 105 C248 86 306 90 339 118" fill="none" stroke="#cbb8ff" stroke-width="16" stroke-linecap="round"/>
+      <aside class="poster" aria-label="Ilustração de carro antigo brasileiro">
+        <svg class="classic-car" viewBox="0 0 540 520" role="img" aria-label="Carro antigo brasileiro em estilo retrô">
+          <ellipse cx="270" cy="395" rx="188" ry="54" fill="rgba(25,23,21,0.20)"/>
+          <path d="M80 322 C91 235 159 181 258 181 H318 C405 181 467 239 480 322 Z" fill="#b6281f" stroke="#191715" stroke-width="18" stroke-linejoin="round"/>
+          <path d="M152 190 C179 135 231 106 292 106 C348 106 392 138 421 199 L152 199 Z" fill="#f6ead6" stroke="#191715" stroke-width="18" stroke-linejoin="round"/>
+          <path d="M212 127 L183 199 H290 L282 116 C253 116 231 119 212 127 Z" fill="#244d73" opacity="0.86" stroke="#191715" stroke-width="12" stroke-linejoin="round"/>
+          <path d="M294 116 L302 199 H406 C382 148 346 120 294 116 Z" fill="#244d73" opacity="0.86" stroke="#191715" stroke-width="12" stroke-linejoin="round"/>
+          <path d="M68 321 H493" stroke="#f6ead6" stroke-width="24" stroke-linecap="round"/>
+          <path d="M86 342 H472" stroke="#191715" stroke-width="18" stroke-linecap="round"/>
+          <circle cx="166" cy="344" r="58" fill="#191715"/>
+          <circle cx="166" cy="344" r="29" fill="#d8d0bf"/>
+          <circle cx="166" cy="344" r="11" fill="#191715"/>
+          <circle cx="394" cy="344" r="58" fill="#191715"/>
+          <circle cx="394" cy="344" r="29" fill="#d8d0bf"/>
+          <circle cx="394" cy="344" r="11" fill="#191715"/>
+          <path d="M114 285 C128 263 166 259 197 274" fill="none" stroke="#f6ead6" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+          <path d="M351 274 H430" stroke="#f6ead6" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+          <path d="M250 225 H293" stroke="#191715" stroke-width="10" stroke-linecap="round"/>
+          <path d="M106 306 L63 300" stroke="#d89a28" stroke-width="16" stroke-linecap="round"/>
+          <path d="M475 306 L509 300" stroke="#d89a28" stroke-width="16" stroke-linecap="round"/>
+          <path d="M132 162 C179 94 296 63 392 108" fill="none" stroke="#d89a28" stroke-width="14" stroke-linecap="round" opacity="0.9"/>
         </svg>
-        <div class="basket-label">
-          <span>Amigurumis com personalidade</span>
-          <span>pontos simples, acabamento caprichado</span>
+        <div class="poster-label">
+          <span>Placa preta no coração</span>
+          <span>metal, história e cheiro de garagem</span>
         </div>
       </aside>
     </section>
 
     <section class="shell" id="dicas">
       <div class="section-title">
-        <h2>Dicas úteis para começar melhor</h2>
-        <p>Pequenos ajustes que deixam o crochê mais limpo, firme e gostoso de fazer.</p>
+        <h2>Dicas de garimpo e preservação</h2>
+        <p>Antes de comprar, restaurar ou colecionar, olhe para originalidade, documentação e estrutura. O brilho da pintura nunca conta a história inteira.</p>
       </div>
-      <div class="cards" aria-label="Dicas de crochê e amigurumi">
+      <div class="cards" aria-label="Dicas de carros antigos brasileiros">
         <article class="card">
           <span class="num">01</span>
-          <h3>Escolha fio e agulha em dupla</h3>
-          <p>Para amigurumi, use uma agulha um pouco menor que a indicada no rótulo. Isso fecha os pontos e evita que o enchimento apareça.</p>
+          <h3>Confira documentação e histórico</h3>
+          <p>Verifique chassi, motor, débitos, número de proprietários e coerência dos dados. Carro antigo bom começa com papel limpo.</p>
         </article>
         <article class="card">
           <span class="num">02</span>
-          <h3>Marque o início da carreira</h3>
-          <p>Um marcador simples salva a contagem em trabalhos circulares. Pode ser clipe, fio colorido ou marcador próprio.</p>
+          <h3>Procure ferrugem estrutural</h3>
+          <p>Assoalho, caixas de ar, longarinas, caixas de roda e entorno dos vidros costumam revelar restaurações caras.</p>
         </article>
         <article class="card">
           <span class="num">03</span>
-          <h3>Encha aos poucos</h3>
-          <p>Coloque fibra em pequenas porções e modele com os dedos. O resultado fica uniforme, macio e sem caroços.</p>
+          <h3>Valorize peças originais</h3>
+          <p>Frisos, lanternas, volante, painel e acabamento interno podem ser mais difíceis de achar que componentes mecânicos.</p>
         </article>
         <article class="card">
           <span class="num">04</span>
-          <h3>Finalize com invisibilidade</h3>
-          <p>Use agulha de tapeçaria para esconder pontas por dentro da peça e feche anéis com acabamento invisível quando possível.</p>
+          <h3>Use sem destruir</h3>
+          <p>Rodar com frequência mantém freios, borrachas e carburador em ordem. Clássico parado também envelhece.</p>
         </article>
       </div>
     </section>
 
-    <section class="shell ideas" id="ideias" aria-label="Ideias de criações e mini receita">
+    <section class="shell garage-grid" id="modelos" aria-label="Modelos brasileiros e colecionismo">
       <article class="panel accent">
-        <h3>Ideias de criações para vender, presentear ou decorar</h3>
+        <h3>Modelos nacionais para ficar de olho</h3>
+        <div class="model-list">
+          <div class="model">VW Fusca<small>Popular, resistente e com enorme oferta de peças.</small></div>
+          <div class="model">Chevrolet Opala<small>Ícone de seis cilindros, conforto e presença.</small></div>
+          <div class="model">VW Brasília<small>Design brasileiro, mecânica simples e muita nostalgia.</small></div>
+          <div class="model">Ford Corcel I<small>Elegante, econômico e cada vez mais valorizado.</small></div>
+          <div class="model">Dodge Dart / Charger<small>V8 nacional para quem quer ronco e raridade.</small></div>
+          <div class="model">Puma GT / GTE<small>Esportivo brasileiro com fibra, estilo e personalidade.</small></div>
+          <div class="model">Karmann-Ghia TC<small>Charme de cupê nacional para coleção caprichada.</small></div>
+          <div class="model">Fiat 147<small>Pioneiro compacto, ótimo para coleção temática.</small></div>
+        </div>
+      </article>
+      <article class="panel dark">
+        <h3>Colecionismo sem dor de cabeça</h3>
         <ul>
-          <li>Chaveiros de bichinhos: abelha, gatinho, tartaruga, polvo e dinossauro bebê.</li>
-          <li>Mini vasinhos de suculentas de crochê para mesa de trabalho ou lembrancinhas.</li>
-          <li>Cestos organizadores em fio de malha para banheiro, quarto ou ateliê.</li>
-          <li>Porta-copos florais, sousplats delicados e jogos americanos coloridos.</li>
-          <li>Móbiles infantis com nuvens, estrelas, arco-íris e personagens fofinhos.</li>
+          <li>Defina foco: originalidade, raridade, memórias afetivas ou uso em passeios.</li>
+          <li>Faça orçamento de compra, transporte, documentação, peças e mão de obra.</li>
+          <li>Guarde notas, fotos da restauração e histórico de manutenção para valorizar o carro.</li>
+          <li>Participe de clubes e encontros: muita peça rara aparece primeiro na comunidade.</li>
+          <li>Evite customizações irreversíveis em versões raras ou muito completas.</li>
         </ul>
       </article>
+    </section>
+
+    <section class="shell garage-grid" aria-label="Manutenção e cultura automotiva brasileira">
       <article class="panel">
-        <h3>Mini roteiro de amigurumi</h3>
-        <div class="recipe">
-          <div class="step">1. Faça um anel mágico com 6 pontos baixos.</div>
-          <div class="step">2. Aumente em espiral até chegar ao tamanho desejado.</div>
-          <div class="step">3. Trabalhe carreiras retas para dar altura à peça.</div>
-          <div class="step">4. Diminua, encha com fibra e borde os detalhes.</div>
-        </div>
+        <h3>Manutenção que protege o clássico</h3>
+        <ul>
+          <li>Troque óleo e fluidos por tempo, não apenas por quilometragem.</li>
+          <li>Mantenha arrefecimento, mangueiras e radiador em dia antes de pegar estrada.</li>
+          <li>Use combustível fresco e revise carburador, filtros e bomba de combustível.</li>
+          <li>Lubrifique dobradiças, cabos, trincos e máquinas de vidro periodicamente.</li>
+        </ul>
+      </article>
+      <article class="panel accent">
+        <h3>Ideias de conteúdo para garagem</h3>
+        <ul>
+          <li>Guias de compra por modelo e ano.</li>
+          <li>Checklist para vistoria antes de fechar negócio.</li>
+          <li>Histórias de versões brasileiras esquecidas.</li>
+          <li>Comparativos: original, restaurado, preservado e resto-mod.</li>
+        </ul>
       </article>
     </section>
 
     <div class="strip" aria-hidden="true">
       <div class="strip-track">
-        <span>Anel mágico</span><span>Ponto baixo</span><span>Fio de algodão</span><span>Agulha de tapeçaria</span><span>Arremate invisível</span><span>Receitas fofas</span><span>Cores pastel</span><span>Presentes feitos à mão</span>
-        <span>Anel mágico</span><span>Ponto baixo</span><span>Fio de algodão</span><span>Agulha de tapeçaria</span><span>Arremate invisível</span><span>Receitas fofas</span><span>Cores pastel</span><span>Presentes feitos à mão</span>
+        <span>Fusca</span><span>Opala</span><span>Brasília</span><span>Puma</span><span>Dodge Dart</span><span>Corcel</span><span>Karmann-Ghia TC</span><span>Fiat 147</span><span>SP2</span><span>Chevette</span>
+        <span>Fusca</span><span>Opala</span><span>Brasília</span><span>Puma</span><span>Dodge Dart</span><span>Corcel</span><span>Karmann-Ghia TC</span><span>Fiat 147</span><span>SP2</span><span>Chevette</span>
       </div>
     </div>
   </main>
 
   <footer class="shell">
-    <span>Ateliê Fio & Afeto — inspiração para criar ponto por ponto.</span>
-    <span>Feito com fio, calma e um café ao lado.</span>
+    <span>Garagem Brasil Clássicos — preservando memórias automotivas nacionais.</span>
+    <span>Da placa amarela à placa preta, todo clássico tem uma história.</span>
   </footer>
 </body>
 </html>
