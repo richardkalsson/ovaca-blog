@@ -1,3 +1,3 @@
-# English Sprint
+# 日本語スプリント
 
-Site estático de aprendizado de inglês para brasileiros, com trilhas de estudo, rotina semanal, conversação, listening, vocabulário e gramática prática.
+ブラジル人向けの静的な日本語学習サイトです。ひらがな、カタカナ、語彙、文法、聞き取り、会話、週間学習計画を日本語で紹介します。
