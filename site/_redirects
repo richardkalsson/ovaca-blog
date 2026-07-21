@@ -1,0 +1,4 @@
+# Cloudflare Pages — redirects
+# /blog sem barra -> com barra (evita URL duplicada)
+/blog /blog/ 301
+/redacao /blog/ 302

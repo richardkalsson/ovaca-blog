@@ -1,0 +1,6 @@
+# O Vaca Ciclista — robots.txt
+User-agent: *
+Allow: /
+Disallow: /templates/
+
+Sitemap: https://ovacaciclista.com.br/sitemap.xml

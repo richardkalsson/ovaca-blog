@@ -1,0 +1,14 @@
+# Cloudflare Pages — headers
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  X-Frame-Options: SAMEORIGIN
+
+# Cache longo para assets versionados
+/assets/*
+  Cache-Control: public, max-age=604800
+
+# JSON de dados muda a cada post — cache curto
+/assets/data/*
+  Cache-Control: public, max-age=300

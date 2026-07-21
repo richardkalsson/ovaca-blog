@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Gerado manualmente por enquanto. O agente de publicação deve adicionar um <url> por matéria nova (ver README). -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://ovacaciclista.com.br/</loc>
+    <lastmod>2026-07-13</lastmod>
+  </url>
+  <url>
+    <loc>https://ovacaciclista.com.br/blog/</loc>
+    <lastmod>2026-07-13</lastmod>
+  </url>
+  <url>
+    <loc>https://ovacaciclista.com.br/redacao/road/tour-de-suisse-2026-pogacar-titulo.html</loc>
+    <lastmod>2026-07-13</lastmod>
+  </url>
+  <url>
+    <loc>https://ovacaciclista.com.br/area-tecnica/</loc>
+    <lastmod>2026-07-13</lastmod>
+  </url>
+  <url>
+    <loc>https://ovacaciclista.com.br/o-vaca/</loc>
+    <lastmod>2026-07-13</lastmod>
+  </url>
+  <url>
+    <loc>https://ovacaciclista.com.br/loja/</loc>
+    <lastmod>2026-07-13</lastmod>
+  </url>
+</urlset>
