@@ -1,3 +1,5 @@
-# 日本語スプリント
+# Peloton Classe
 
-ブラジル人向けの静的な日本語学習サイトです。ひらがな、カタカナ、語彙、文法、聞き取り、会話、週間学習計画を日本語で紹介します。
+Site estático premium de ciclismo, com tema off-white, amarelo inspirado na camisa do Tour de France e detalhes nas cores de campeão mundial.
+
+Conteúdo focado em treino, rotas, equipamentos, performance e cultura de estrada.
